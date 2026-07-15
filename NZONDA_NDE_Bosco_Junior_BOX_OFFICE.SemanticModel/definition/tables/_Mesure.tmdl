@@ -1,0 +1,32 @@
+table _Mesure
+	lineageTag: a82fdefd-3b60-4e8c-b4a7-603107980aff
+
+	measure Bénéfice = (SUM(Box_Office_All_Time[Recette Salles]) + SUM(Box_Office_All_Time[Recette Vidéo])) - SUM(Box_Office_All_Time[Coût])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 68816845-65ff-46cf-ae6f-ae51d606cf43
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Recette Total' = SUM(Box_Office_All_Time[Recette Salles]) + SUM(Box_Office_All_Time[Recette Vidéo])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 9acff7cc-5083-457f-b2f9-ae1d618d859b
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column Column
+		formatString: 0
+		lineageTag: 542aff60-970b-47b2-8d14-d9c6e835c2ac
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Mesure = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = fc3ffbe6b9c54a82a729dc1c679b9621
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+

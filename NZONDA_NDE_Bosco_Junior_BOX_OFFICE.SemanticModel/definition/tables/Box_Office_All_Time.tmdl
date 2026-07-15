@@ -1,0 +1,85 @@
+table Box_Office_All_Time
+	lineageTag: 70db68b4-dc18-4a2e-a869-281d2cf64710
+
+	column Index
+		dataType: int64
+		formatString: 0
+		lineageTag: 39e42fdd-d6ee-4f32-bff3-5d3d4cbb6f6b
+		summarizeBy: sum
+		sourceColumn: Index
+
+		annotation SummarizationSetBy = Automatic
+
+	column Année
+		dataType: int64
+		formatString: 0
+		lineageTag: 17b32cb9-8e49-4627-b9f3-eeafd291c941
+		summarizeBy: sum
+		sourceColumn: Année
+
+		annotation SummarizationSetBy = Automatic
+
+	column Genre
+		dataType: string
+		lineageTag: 19c3b602-4542-4ff2-921b-0c00ee9b6888
+		summarizeBy: none
+		sourceColumn: Genre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Coût
+		dataType: decimal
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: c9db3cc4-79e7-4781-ad2e-3e06c7e2701b
+		summarizeBy: sum
+		sourceColumn: Coût
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'Recette Salles'
+		dataType: decimal
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 4bef68f0-0899-49b0-8c06-a67f029fc95d
+		summarizeBy: sum
+		sourceColumn: Recette Salles
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'Recette Vidéo'
+		dataType: decimal
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: bad89a44-d85e-4676-8dbb-3d3b8b3aa755
+		summarizeBy: sum
+		sourceColumn: Recette Vidéo
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column Titre
+		dataType: string
+		lineageTag: 873381d9-088a-4a0b-b121-224ea0c59cb0
+		summarizeBy: none
+		sourceColumn: Titre
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Box_Office_All_Time = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\Nde Jr\Downloads\Box_Office_Dataset.xlsx"), null, true),
+				    Box_Office_All_Time_Table = Source{[Item="Box_Office_All_Time",Kind="Table"]}[Data],
+				    #"Type modifié" = Table.TransformColumnTypes(Box_Office_All_Time_Table,{{"Index", Int64.Type}, {"Année", Int64.Type}, {"Titre", type text}, {"Genre", type text}, {"Coût", Int64.Type}, {"Recette Salles", Int64.Type}, {"Recette Vidéo", Int64.Type}}),
+				    #"Type modifié1" = Table.TransformColumnTypes(#"Type modifié",{{"Recette Vidéo", Currency.Type}, {"Recette Salles", Currency.Type}, {"Coût", Currency.Type}})
+				in
+				    #"Type modifié1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,966 @@
+cultureInfo fr-FR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "box_office_all_time": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Box_Office_All_Time"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "box office all time": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Box_Office_All_Time": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "box office all duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "box office all interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "box office all moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "box office all period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "box office all timetable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "box_office_all_time.index": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Box_Office_All_Time",
+			          "ConceptualProperty": "Index"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "index": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "directory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalog": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "guide": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "file": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "manifestation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "pointer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "indicator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "box_office_all_time.année": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Box_Office_All_Time",
+			          "ConceptualProperty": "Année"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "année": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "box_office_all_time.genre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Box_Office_All_Time",
+			          "ConceptualProperty": "Genre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "genre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "field": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "box_office_all_time.coût": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Box_Office_All_Time",
+			          "ConceptualProperty": "Coût"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coût": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "box_office_all_time.recette_salle": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Box_Office_All_Time",
+			          "ConceptualProperty": "Recette Salles"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recette salle": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "box_office_all_time.recette_vidéo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Box_Office_All_Time",
+			          "ConceptualProperty": "Recette Vidéo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recette vidéo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "box_office_all_time.titre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Box_Office_All_Time",
+			          "ConceptualProperty": "Titre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "titre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_mesure": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesure",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.bénéfice": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesure",
+			          "ConceptualProperty": "Bénéfice"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "bénéfice": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Profit": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.recette_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesure",
+			          "ConceptualProperty": "Recette Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recette total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "recette aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "recette overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "box_office_all_time_has_titre": {
+			      "Binding": {
+			        "ConceptualEntity": "Box_Office_All_Time"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "box_office_all_time": {
+			          "Target": {
+			            "Entity": "box_office_all_time"
+			          }
+			        },
+			        "box_office_all_time.titre": {
+			          "Target": {
+			            "Entity": "box_office_all_time.titre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Object": {
+			              "Role": "box_office_all_time.titre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "box_office_all_times_have_titres"
+			        }
+			      ]
+			    },
+			    "box_office_all_time_has_recette_vidéo": {
+			      "Binding": {
+			        "ConceptualEntity": "Box_Office_All_Time"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "box_office_all_time": {
+			          "Target": {
+			            "Entity": "box_office_all_time"
+			          }
+			        },
+			        "box_office_all_time.recette_vidéo": {
+			          "Target": {
+			            "Entity": "box_office_all_time.recette_vidéo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Object": {
+			              "Role": "box_office_all_time.recette_vidéo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "box_office_all_times_have_recette_vidéos"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "box_office_all_time.recette_vidéo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "recette_vidéo_indicates_how_expensive_box_office_all_times_are"
+			        }
+			      ]
+			    },
+			    "box_office_all_time_has_recette_salle": {
+			      "Binding": {
+			        "ConceptualEntity": "Box_Office_All_Time"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "box_office_all_time": {
+			          "Target": {
+			            "Entity": "box_office_all_time"
+			          }
+			        },
+			        "box_office_all_time.recette_salle": {
+			          "Target": {
+			            "Entity": "box_office_all_time.recette_salle"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Object": {
+			              "Role": "box_office_all_time.recette_salle"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "box_office_all_times_have_recette_salle"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "box_office_all_time.recette_salle"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "recette_salle_indicates_how_expensive_box_office_all_times_are"
+			        }
+			      ]
+			    },
+			    "box_office_all_time_has_coût": {
+			      "Binding": {
+			        "ConceptualEntity": "Box_Office_All_Time"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "box_office_all_time": {
+			          "Target": {
+			            "Entity": "box_office_all_time"
+			          }
+			        },
+			        "box_office_all_time.coût": {
+			          "Target": {
+			            "Entity": "box_office_all_time.coût"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Object": {
+			              "Role": "box_office_all_time.coût"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "box_office_all_times_have_coûts"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "box_office_all_time.coût"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "coût_indicates_how_expensive_box_office_all_times_are"
+			        }
+			      ]
+			    },
+			    "box_office_all_time_has_genre": {
+			      "Binding": {
+			        "ConceptualEntity": "Box_Office_All_Time"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "box_office_all_time": {
+			          "Target": {
+			            "Entity": "box_office_all_time"
+			          }
+			        },
+			        "box_office_all_time.genre": {
+			          "Target": {
+			            "Entity": "box_office_all_time.genre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Object": {
+			              "Role": "box_office_all_time.genre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "box_office_all_times_have_genres"
+			        }
+			      ]
+			    },
+			    "box_office_all_time_has_année": {
+			      "Binding": {
+			        "ConceptualEntity": "Box_Office_All_Time"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "box_office_all_time": {
+			          "Target": {
+			            "Entity": "box_office_all_time"
+			          }
+			        },
+			        "box_office_all_time.année": {
+			          "Target": {
+			            "Entity": "box_office_all_time.année"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Object": {
+			              "Role": "box_office_all_time.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "box_office_all_times_have_années"
+			        }
+			      ]
+			    },
+			    "box_office_all_time_has_index": {
+			      "Binding": {
+			        "ConceptualEntity": "Box_Office_All_Time"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "box_office_all_time": {
+			          "Target": {
+			            "Entity": "box_office_all_time"
+			          }
+			        },
+			        "box_office_all_time.index": {
+			          "Target": {
+			            "Entity": "box_office_all_time.index"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Object": {
+			              "Role": "box_office_all_time.index"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "box_office_all_times_have_indices"
+			        }
+			      ]
+			    },
+			    "entity__mesure_has_column": {
+			      "Binding": {
+			        "ConceptualEntity": "_Mesure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__mesure": {
+			          "Target": {
+			            "Entity": "entity__mesure"
+			          }
+			        },
+			        "entity__mesure.column": {
+			          "Target": {
+			            "Entity": "entity__mesure.column"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__mesure"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.column"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_mesures_have_columns"
+			        }
+			      ]
+			    },
+			    "box_office_all_time_has_entity__mesure_bénéfice": {
+			      "Binding": {
+			        "ConceptualEntity": "Box_Office_All_Time"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "box_office_all_time": {
+			          "Target": {
+			            "Entity": "box_office_all_time"
+			          }
+			        },
+			        "entity__mesure.bénéfice": {
+			          "Target": {
+			            "Entity": "entity__mesure.bénéfice"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.bénéfice"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "box_office_all_times_have_bénéfice"
+			        }
+			      ]
+			    },
+			    "box_office_all_time_has_entity__mesure_recette_total": {
+			      "Binding": {
+			        "ConceptualEntity": "Box_Office_All_Time"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "box_office_all_time": {
+			          "Target": {
+			            "Entity": "box_office_all_time"
+			          }
+			        },
+			        "entity__mesure.recette_total": {
+			          "Target": {
+			            "Entity": "entity__mesure.recette_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "box_office_all_time"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.recette_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "box_office_all_times_have_recette_total"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

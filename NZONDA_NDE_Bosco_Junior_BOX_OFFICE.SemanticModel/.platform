@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "NZONDA_NDE_Bosco_Junior_BOX_OFFICE"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f43e4fc9-7938-4b0a-906f-505078ee68e2"
+  }
+}

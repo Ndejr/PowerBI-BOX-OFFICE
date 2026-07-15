@@ -1,0 +1,19 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: fr-FR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Box_Office_All_Time"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Box_Office_All_Time
+ref table _Mesure
+
+ref cultureInfo fr-FR
+
